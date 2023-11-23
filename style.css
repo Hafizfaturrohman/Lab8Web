@@ -1,0 +1,43 @@
+/* Gaya CSS yang sudah ada */
+
+/* Tambahkan gaya CSS berikut */
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd; /* Tambahkan border pada tabel */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px; /* Mengurangi padding sel-sel tabel */
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px; /* Mengurangi padding gambar */
+    width: 10px; /* Mengurangi lebar gambar */
+    height: 10px; /* Mengurangi tinggi gambar */
+}
+
+.action-btn {
+    padding: 3px 8px; /* Mengurangi padding tombol aksi */
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 12px; /* Mengurangi ukuran font tombol aksi */
+    margin-right: 4px; /* Memberikan sedikit margin kanan antar tombol */
+}
+
+/* Mengurangi margin dan padding pada elemen teks */
+h1, p {
+    margin: 0;
+    padding: 0;
+}
